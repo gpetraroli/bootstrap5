@@ -1,0 +1,19 @@
+// ==========================
+// VARIABLES
+$sizes: (
+        0: 0rem,
+        1: 0.618rem,
+        2: 1.2rem,
+        3: 1.618rem,
+        4: 2.618rem,
+        5: 4.236rem,
+        6: 6.854rem,
+        7: 11.089rem,
+        8: 17.942rem,
+        9: 29.03rem,
+);
+
+$top_navbar_height: map-get($sizes, 6);
+$sidenav_height: min(100vh - $top_navbar_height);
+$sidenav_width: 300px;
+$transition_duration: .4s;
